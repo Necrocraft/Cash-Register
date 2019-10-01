@@ -3,7 +3,7 @@ Function checkCashRegister() that accepts purchase price as the first argument (
 
 cid is a 2D array listing available currency.
 
-The checkCashRegister()function should always return an object with a status key and a change key.
+The checkCashRegister() function should always return an object with a status key and a change key.
 
 Return {status: "INSUFFICIENT_FUNDS", change: []} if cash-in-drawer is less than the change due, or if you cannot return the exact change.
 
