@@ -5,7 +5,7 @@ cid is a 2D array listing available currency.
 
 The checkCashRegister() function should always return an object with a status key and a change key.
 
-Return {status: "INSUFFICIENT_FUNDS", change: []} if cash-in-drawer is less than the change due, or if you cannot return the exact change.
+Return {status: "INSUFFICIENT_FUNDS", change: []} if cash-in-drawer is less than the amount of change due, or if you cannot return the exact change.
 
 Return {status: "CLOSED", change: [...]} with cash-in-drawer as the value for the key change if it is equal to the change due.
 
